@@ -1,0 +1,32 @@
+--------Unit tests-------
+
+multiplication function
+
+Expect product(4, 3) to be a number
+Expect product(4, 3) to be equal to 12
+Expect product("a", 3) to be an error
+Expect product(-4,3) to be a negative number
+Expect product (-4, -3) to be a positive number
+Expect product (0,3) to be zero
+
+concatOdds function
+
+Input: Two arrays [3, 2, 1] and [9, 1, 1, 1, 4, 15, -1]
+Expected Output: [-1, 1, 3, 9, 15]
+
+Expect the concatOdds function to combine the odd numbers from both arrays
+Expect the concatOdds function to return the odd numbers in ascending order.
+Expect the concatOdds function to contain no duplicate numbers
+
+--------Functional Test-------
+A shopping cart checkout feature that allows a user to check out as a guest (without an account), or as a logged-in user. They should be allowed to do either, but should be asked if they want to create an account or log in if they check out as a guest.
+When a user [does something with some parameters], [some thing should happen]
+
+- When the shopping cart is empty, it should be obvious that there are no items in the cart from UI standpoint.
+- When the user still clicks on the empty cart icon, display a page that says, "Your cart is empty" and direct them what to do next such as browse your saved items or back to home.
+- When a user is already logged in, only show "Proceed to checkout" when a user clicks on the cart.
+- If a user is not logged in, give the user options to create a new account, log in, and/or checkout as a guest.
+- On that same page, display fields to fill out shipping address.
+- For check out as a guest option, have the user type in their email address only. 
+- At the top of the page, show a tracker so users know what steps are invloved. ex) Ship or Pick up --> Delivery --> Payment
+- Display error messages, if the user forgets to type in an email address or other required info.
